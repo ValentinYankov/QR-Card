@@ -1,0 +1,35 @@
+@use "../abstracts/" as a;
+
+.card {
+  background-color: a.$clr-white;
+  max-width: 250px;
+  padding: 15px;
+  margin: auto;
+
+  &__img {
+    max-width: 100%;
+  }
+
+}
+
+
+
+.card,
+.card__img {
+  border-radius: 10px;
+}
+
+.card__body-heading {
+  font-weight: 700;
+}
+
+.card__body-text {
+  font-weight: 400;
+  font-size: 15px;
+  color: a.$clr-lightgrey;
+}
+
+.card__body-heading,
+.card__body-text {
+    text-align: center;
+}
